@@ -22,7 +22,7 @@ photo.take().then(result => {
 
 ```js
 const photo = require("photo");
-photo.take({
+photo.pick({
   multi: true
 }).then(result => {
   const buffer = result.data;
